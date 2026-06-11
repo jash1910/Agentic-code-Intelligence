@@ -1,0 +1,56 @@
+{
+  "name": "archonai-vscode",
+  "displayName": "ArchonAI — Code Intelligence",
+  "description": "Agentic code assistant with RAG, knowledge graphs, and multi-agent orchestration",
+  "version": "2.0.0",
+  "publisher": "archonai",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["AI", "Programming Languages", "Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      { "command": "archonai.explain", "title": "ArchonAI: Explain Code" },
+      { "command": "archonai.generate", "title": "ArchonAI: Generate Code" },
+      { "command": "archonai.ask", "title": "ArchonAI: Ask Repository Question" },
+      { "command": "archonai.refactor", "title": "ArchonAI: Refactor Code" },
+      { "command": "archonai.fix", "title": "ArchonAI: Fix Errors" }
+    ],
+    "menus": {
+      "editor/context": [
+        { "command": "archonai.explain", "group": "archonai@1" },
+        { "command": "archonai.refactor", "group": "archonai@2" },
+        { "command": "archonai.fix", "group": "archonai@3" }
+      ]
+    },
+    "configuration": {
+      "title": "ArchonAI",
+      "properties": {
+        "archonai.apiUrl": {
+          "type": "string",
+          "default": "http://localhost:8000",
+          "description": "ArchonAI FastAPI backend URL"
+        },
+        "archonai.repository": {
+          "type": "string",
+          "default": "langchain",
+          "description": "Default repository domain"
+        },
+        "archonai.apiKey": {
+          "type": "string",
+          "default": "",
+          "description": "API key for authentication"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}

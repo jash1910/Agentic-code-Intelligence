@@ -1,0 +1,11 @@
+FROM python:3.11-slim
+
+RUN useradd -m -s /bin/bash sandbox
+WORKDIR /sandbox
+
+RUN pip install --no-cache-dir langchain langchain-community
+
+USER sandbox
+
+# Resource limits enforced at docker run time
+CMD ["python", "-c", "print('ArchonAI sandbox ready')"]

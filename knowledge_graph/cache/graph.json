@@ -1,0 +1,85 @@
+{
+  "entities": {
+    "ChatPromptTemplate": {
+      "name": "ChatPromptTemplate",
+      "type": "class"
+    },
+    "BasePromptTemplate": {
+      "name": "BasePromptTemplate",
+      "type": "class"
+    },
+    "AgentExecutor": {
+      "name": "AgentExecutor",
+      "type": "class"
+    },
+    "BaseAgent": {
+      "name": "BaseAgent",
+      "type": "class"
+    },
+    "BaseTool": {
+      "name": "BaseTool",
+      "type": "class"
+    },
+    "LLMChain": {
+      "name": "LLMChain",
+      "type": "class"
+    },
+    "Chain": {
+      "name": "Chain",
+      "type": "class"
+    },
+    "RunnableSequence": {
+      "name": "RunnableSequence",
+      "type": "class"
+    },
+    "Runnable": {
+      "name": "Runnable",
+      "type": "class"
+    },
+    "create_tool_calling_agent": {
+      "name": "create_tool_calling_agent",
+      "type": "function"
+    },
+    "RunnableAgent": {
+      "name": "RunnableAgent",
+      "type": "class"
+    }
+  },
+  "relationships": [
+    {
+      "source": "ChatPromptTemplate",
+      "target": "BasePromptTemplate",
+      "type": "INHERITS_FROM"
+    },
+    {
+      "source": "AgentExecutor",
+      "target": "BaseAgent",
+      "type": "DEPENDS_ON"
+    },
+    {
+      "source": "AgentExecutor",
+      "target": "BaseTool",
+      "type": "USES"
+    },
+    {
+      "source": "LLMChain",
+      "target": "Chain",
+      "type": "INHERITS_FROM"
+    },
+    {
+      "source": "LLMChain",
+      "target": "BasePromptTemplate",
+      "type": "USES"
+    },
+    {
+      "source": "RunnableSequence",
+      "target": "Runnable",
+      "type": "IMPLEMENTS"
+    },
+    {
+      "source": "create_tool_calling_agent",
+      "target": "RunnableAgent",
+      "type": "RETURNS"
+    }
+  ]
+}
