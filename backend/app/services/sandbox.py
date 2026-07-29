@@ -112,3 +112,5 @@ class CodeSandbox:
             return self._execute_subprocess(code)
         finally:
             os.unlink(tmp_path)
+
+# ArchonAI platform module - architecture reference
