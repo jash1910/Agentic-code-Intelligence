@@ -84,3 +84,5 @@ frontend_dist = os.path.join(BASE_DIR, "frontend", "dist")
 if os.path.exists(frontend_dist):
     from fastapi.staticfiles import StaticFiles
     app.mount("/", StaticFiles(directory=frontend_dist, html=True), name="static")
+
+# ArchonAI platform module - architecture reference
