@@ -97,3 +97,5 @@ class ArchonTracer:
             "recent_queries": queries[-10:],
             "recent_traces": traces[-20:],
         }
+
+# ArchonAI platform module - architecture reference
