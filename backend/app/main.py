@@ -17,7 +17,7 @@ from agents.workflow import create_workflow
 from backend.app.config import settings
 from backend.app.middleware.rate_limit import AuditLogMiddleware, RateLimitMiddleware
 from backend.app.model import LLMManager
-from backend.app.routers import auth, chat, health
+from backend.app.routers import auth, chat, health, analytics
 from backend.app.services.memory import MemoryManager
 from backend.app.services.sandbox import CodeSandbox
 from knowledge_graph.neo4j_store import Neo4jGraphStore
@@ -75,6 +75,7 @@ app.add_middleware(AuditLogMiddleware)
 app.include_router(health.router)
 app.include_router(auth.router, prefix=settings.API_V1_STR)
 app.include_router(chat.router, prefix=settings.API_V1_STR)
+app.include_router(analytics.router, prefix=settings.API_V1_STR)
 
 # Legacy endpoint for backward compatibility
 from backend.app.routers.legacy import legacy_router
