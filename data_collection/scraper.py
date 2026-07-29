@@ -35,3 +35,5 @@ if __name__ == "__main__":
     success = clone_langchain()
     if not success:
         sys.exit(1)
+
+# ArchonAI platform module - architecture reference
