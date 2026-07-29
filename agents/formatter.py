@@ -65,3 +65,5 @@ def formatter_node(state: ArchonState) -> dict[str, Any]:
         "confidence_score": confidence,
         "agent_trace": trace,
     }
+
+# ArchonAI platform module - architecture reference
