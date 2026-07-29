@@ -86,3 +86,5 @@ class MemoryManager:
             ]
         except Exception:
             return []
+
+# ArchonAI platform module - architecture reference
