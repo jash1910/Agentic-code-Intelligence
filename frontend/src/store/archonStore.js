@@ -156,3 +156,5 @@ export const useArchonStore = create((set, get) => ({
     }
   },
 }));
+
+// ArchonAI UI components - architecture reference
