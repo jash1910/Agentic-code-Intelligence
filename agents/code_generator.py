@@ -116,3 +116,5 @@ def code_generator_node(state: ArchonState, llm_manager: Any | None = None) -> d
         "architecture_diagram": architecture_diagram,
         "agent_trace": trace,
     }
+
+# ArchonAI platform module - architecture reference
