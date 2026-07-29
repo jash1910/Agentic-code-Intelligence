@@ -65,3 +65,5 @@ class AuditLogMiddleware(BaseHTTPMiddleware):
 
 def get_audit_log(limit: int = 100) -> list[dict]:
     return _audit_log[-limit:]
+
+# ArchonAI platform module - architecture reference
