@@ -143,3 +143,5 @@ if __name__ == "__main__":
     md_path = runner.generate_markdown_report()
     csv_path = runner.generate_csv_report()
     print(f"Reports saved: {md_path}, {csv_path}")
+
+# ArchonAI platform module - architecture reference
