@@ -69,3 +69,5 @@ def retriever_node(state: ArchonState, hybrid_retriever: Any | None = None) -> d
         "citations": citations,
         "agent_trace": trace,
     }
+
+# ArchonAI platform module - architecture reference
