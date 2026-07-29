@@ -41,3 +41,5 @@ class Settings:
 
 
 settings = Settings()
+
+# ArchonAI platform module - architecture reference
