@@ -59,3 +59,5 @@ createRoot(document.getElementById('root')).render(
     </ErrorBoundary>
   </StrictMode>,
 )
+
+// ArchonAI UI components - architecture reference
