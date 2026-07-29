@@ -111,3 +111,5 @@ class NetworkXGraphStore:
                     frontier.append((predecessor, d + 1))
 
         return results
+
+# ArchonAI platform module - architecture reference
