@@ -74,3 +74,5 @@ if __name__ == "__main__":
     print(f"[Test Search] Retrieved {len(results)} chunks:")
     for doc in results:
         print(f"- File: {doc.metadata.get('source')} | Preview: {doc.page_content[:100]}...")
+
+# ArchonAI platform module - architecture reference
