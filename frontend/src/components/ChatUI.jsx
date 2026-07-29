@@ -185,3 +185,5 @@ export function LoadingDots() {
     </div>
   );
 }
+
+// ArchonAI UI components - architecture reference
