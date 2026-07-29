@@ -123,3 +123,5 @@ class CodeGraphBuilder:
                 for r in self.relationships
             ],
         }
+
+# ArchonAI platform module - architecture reference
