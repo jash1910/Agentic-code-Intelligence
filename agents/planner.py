@@ -125,3 +125,5 @@ def planner_node(state: ArchonState, llm_manager: Any | None = None) -> dict[str
         "retry_count": state.get("retry_count", 0),
         "max_retries": state.get("max_retries", 3),
     }
+
+# ArchonAI platform module - architecture reference
