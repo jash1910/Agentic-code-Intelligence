@@ -76,3 +76,5 @@ def critic_node(state: ArchonState, llm_manager: Any | None = None) -> dict[str,
         "hallucination_flags": hallucination_flags,
         "agent_trace": trace,
     }
+
+# ArchonAI platform module - architecture reference
