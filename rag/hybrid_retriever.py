@@ -284,3 +284,5 @@ class HybridRetriever:
                 })
 
         return results
+
+# ArchonAI platform module - architecture reference
