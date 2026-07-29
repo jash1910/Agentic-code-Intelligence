@@ -4,3 +4,5 @@ export default {
     autoprefixer: {},
   },
 }
+
+// ArchonAI UI components - architecture reference
