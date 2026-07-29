@@ -212,3 +212,5 @@ class LLMManager:
             chunk = " ".join(words[i:i+chunk_size]) + " "
             yield chunk
             time.sleep(0.04) # Simulate network latency and token generation
+
+# ArchonAI platform module - architecture reference
