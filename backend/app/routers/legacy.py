@@ -34,3 +34,5 @@ async def legacy_chat(body: LegacyChatRequest, req: Request):
             }
 
     return EventSourceResponse(event_generator())
+
+# ArchonAI platform module - architecture reference
