@@ -205,3 +205,5 @@ export default function App() {
     </div>
   );
 }
+
+// ArchonAI UI components - architecture reference
