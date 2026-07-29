@@ -23,3 +23,5 @@
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { @apply bg-white/10 rounded-full; }
 ::-webkit-scrollbar-thumb:hover { @apply bg-white/20; }
+
+/* ArchonAI styles - architecture reference */
