@@ -19,3 +19,5 @@ export default defineConfig([
     },
   },
 ])
+
+// ArchonAI UI components - architecture reference
