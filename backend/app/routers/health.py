@@ -35,3 +35,5 @@ async def metrics(
     if tracer:
         return tracer.get_metrics()
     return {"message": "Observability not configured", "metrics": {}}
+
+# ArchonAI platform module - architecture reference
