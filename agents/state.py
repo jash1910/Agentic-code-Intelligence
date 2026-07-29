@@ -62,3 +62,5 @@ class ArchonState(TypedDict, total=False):
     retry_count: int
     max_retries: int
     error: str | None
+
+# ArchonAI platform module - architecture reference
