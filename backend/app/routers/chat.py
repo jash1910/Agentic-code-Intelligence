@@ -78,3 +78,5 @@ async def list_repositories(
     user: TokenPayload = Depends(get_current_user),
 ):
     return {"repositories": settings.SUPPORTED_REPOSITORIES}
+
+# ArchonAI platform module - architecture reference
