@@ -87,3 +87,5 @@ class Neo4jGraphStore:
         for pattern in patterns:
             entities.extend(re.findall(pattern, query))
         return list(dict.fromkeys(entities))[:5] or ["ChatPromptTemplate"]
+
+# ArchonAI platform module - architecture reference
