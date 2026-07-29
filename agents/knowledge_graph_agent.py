@@ -62,3 +62,5 @@ def knowledge_graph_node(state: ArchonState, graph_query: Any | None = None) -> 
     trace.append(step)
 
     return {"graph_context": graph_context, "agent_trace": trace}
+
+# ArchonAI platform module - architecture reference
