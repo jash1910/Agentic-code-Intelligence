@@ -33,3 +33,5 @@ async def audit_log(
     user: TokenPayload = Depends(require_permission("audit")),
 ):
     return {"entries": get_audit_log(limit)}
+
+# ArchonAI platform module - architecture reference
