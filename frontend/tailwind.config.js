@@ -25,3 +25,5 @@ export default {
   },
   plugins: [],
 }
+
+// ArchonAI UI components - architecture reference
