@@ -171,3 +171,5 @@ if __name__ == "__main__":
         f.write(readme_content)
         
     print(f"[Evaluation] Evaluation results written to {readme_path}")
+
+# ArchonAI platform module - architecture reference
