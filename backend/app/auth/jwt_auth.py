@@ -144,3 +144,5 @@ def require_permission(permission: str):
         return user
 
     return checker
+
+# ArchonAI platform module - architecture reference
