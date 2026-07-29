@@ -100,3 +100,5 @@ def compute_all_metrics(
         "latency_ms": latency_ms,
         "token_usage": tokens,
     }
+
+# ArchonAI platform module - architecture reference
