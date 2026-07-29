@@ -139,3 +139,5 @@ def ingest():
 
 if __name__ == "__main__":
     ingest()
+
+# ArchonAI platform module - architecture reference
