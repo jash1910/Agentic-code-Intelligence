@@ -102,3 +102,5 @@ def _apply_simple_fix(code: str, stderr: str) -> str:
     if "SyntaxError" in stderr:
         return code.rstrip() + "\nprint('Execution complete')"
     return code
+
+# ArchonAI platform module - architecture reference
